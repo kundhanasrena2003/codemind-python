@@ -1,0 +1,18 @@
+n=int(input())
+z=1
+k=0
+temp=n
+while(n):
+    d=n%10
+    n=n//10
+    z=z*d
+while(temp):
+    d=temp%10
+    temp=temp//10
+    k=k+d
+if(k>z):
+    a=k-z
+    print(a)
+else:
+    a=z-k
+    print(a)
