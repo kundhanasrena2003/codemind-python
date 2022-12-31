@@ -31,4 +31,3 @@ else:
         print(n-e)
     else:
         print(d-n)
-     
