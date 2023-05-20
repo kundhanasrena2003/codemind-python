@@ -5,4 +5,3 @@ if v<d:
     print(v)
 else:
     print(d) 
-    
